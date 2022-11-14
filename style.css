@@ -29,14 +29,20 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: center;
+ 
+}
+
+div .img_container {
+  font-weight:500px;
+  display: block;
 }
 
 
 .images img {
   height: 100%;
   width: 100%;
+     object-fit:contain;
+  object-position: center;
 }
 
 .content:hover  .slide {
@@ -60,16 +66,4 @@ cursor: pointer;
 
 .content .right {
   right: 0;
-}
-
-@media screen and (min-width: 600px) {
-  body {
-    background-color: rgb(10, 17, 93);
-  }
-  .content {           
-   margin: 0 20px;
-   width: 100%;
-   height: 100vh;
-   
-  }           
 }
