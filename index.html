@@ -4,28 +4,34 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f908a59e71.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-    <title>Js.Carousel</title>
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <title>Document</title>
   </head>
 
   <body>
-    <main>
-  <div class="carousel">
-    <div class="slides">
-      <img src="images/BN6A9362   freelancers.jpg" alt="slide image" class="slide">
-      <img src="images/BN6A9352   freelancers.jpg" alt="slide image" class="slide">
-      <img src="images/BN6A9312   freelancers.jpg" alt="slide image" class="slide">
-    </div>
-    <div class="controls">
-      <div class="control prev-slide">&#9668;</div>
-      <div class="control next-slide">&#9658;</div>
-    </div>
+
+  
+    <div class="content">
+      <div class="images">
+        <img src="images/BN6A9312   freelancers.jpg" alt="">
+        <img src="images/BN6A9352   freelancers.jpg" alt="">
+        <img src="images/BN6A9362   freelancers.jpg" alt="">
+        <img src="images/BN6A9378   freelancers.jpg" alt="">
+        <img src="images/BN6A9305   freelancers.jpg" alt="">
+        <img src="images/BN6A9290   freelancers.jpg" alt="">
+      </div>
+      <div onclick="side_slide(-1)" class="slide left ">
+        <span class="fa-solid fa-caret-left"></span>
+      </div>
+      <div onclick="side_slide(1)" class="slide right ">
+        <span class="fa-solid fa-caret-right"></span>
+      </div>
   </div>
-    </main>
-    <footer></footer>
+
+    <script src="script.js"></script>
   </body>
 
 </html>
